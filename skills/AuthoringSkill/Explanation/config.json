@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "description": "Generate a funny joke",
+  "description": "Describe the topic",
   "type": "completion",
   "completion": {
     "max_tokens": 1000,
@@ -13,12 +13,12 @@
     "parameters": [
       {
         "name": "input",
-        "description": "The subject of the joke",
+        "description": "The subject of the topic",
         "defaultValue": ""
       },
       {
         "name": "style",
-        "description": "The style of the joke",
+        "description": "The style of the topic",
         "defaultValue": ""
       }
     ]
