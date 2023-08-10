@@ -26,10 +26,10 @@ def main():
     skills_directory = "skills"
 
     fun_skill = kernel.import_semantic_skill_from_directory(
-        skills_directory, "FunSkill"
+        skills_directory, "AuthoringSkill"
     )
 
-    joke_function = fun_skill["Joke"]
+    joke_function = fun_skill["Explanation"]
 
     # The "input" variable in the prompt is set by "content" in the ContextVariables object.
     context_variables = ContextVariables(
