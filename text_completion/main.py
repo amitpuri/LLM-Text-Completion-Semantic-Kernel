@@ -6,7 +6,7 @@ from semantic_kernel.connectors.ai.open_ai import (
 from semantic_kernel.orchestration.context_variables import ContextVariables
 
 useAzureOpenAI = True
-
+model = "text-davinci-003"
 
 def main():
     kernel = sk.Kernel()
@@ -20,7 +20,7 @@ def main():
     else:
         api_key, org_id = sk.openai_settings_from_dot_env()
         kernel.add_text_completion_service(
-            "dv", OpenAITextCompletion("text-davinci-003", api_key, org_id)
+            "dv", OpenAITextCompletion(model, api_key, org_id)
         )
 
     skills_directory = "skills"
