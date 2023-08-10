@@ -29,18 +29,18 @@ def main():
         skills_directory, "AuthoringSkill"
     )
 
-    joke_function = fun_skill["Explanation"]
+    explanation_function = fun_skill["Explanation"]
 
     # The "input" variable in the prompt is set by "content" in the ContextVariables object.
     context_variables = ContextVariables(
         content="Generative AI", variables={"style": "descriptive professional academic"}
     )
-    result = joke_function(variables=context_variables)
+    result = explanation_function(variables=context_variables)
 
     print(result)
 
     # You can also invoke functions like this
-    # result = await jokeFunction.invoke_async("time travel to dinosaur age")
+    # result = await explanation_function.invoke_async("Generative AI")
     # print(result)
 
 
