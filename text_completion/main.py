@@ -33,7 +33,7 @@ def main():
 
     # The "input" variable in the prompt is set by "content" in the ContextVariables object.
     context_variables = ContextVariables(
-        content="time travel to dinosaur age", variables={"style": "descriptive book professional"}
+        content="Generative AI", variables={"style": "descriptive professional academic"}
     )
     result = joke_function(variables=context_variables)
 
