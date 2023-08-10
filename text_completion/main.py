@@ -5,7 +5,7 @@ from semantic_kernel.connectors.ai.open_ai import (
 )
 from semantic_kernel.orchestration.context_variables import ContextVariables
 
-useAzureOpenAI = True
+useAzureOpenAI = False
 model = "text-davinci-003"
 
 def main():
@@ -25,11 +25,11 @@ def main():
 
     skills_directory = "skills"
 
-    fun_skill = kernel.import_semantic_skill_from_directory(
+    authoring_skill = kernel.import_semantic_skill_from_directory(
         skills_directory, "AuthoringSkill"
     )
 
-    explanation_function = fun_skill["Explanation"]
+    explanation_function = authoring_skill["Explanation"]
 
     # The "input" variable in the prompt is set by "content" in the ContextVariables object.
     context_variables = ContextVariables(
