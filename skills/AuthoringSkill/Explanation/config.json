@@ -18,7 +18,7 @@
       },
       {
         "name": "style",
-        "description": "The style of the topic",
+        "description": "The style of the writing",
         "defaultValue": ""
       }
     ]
