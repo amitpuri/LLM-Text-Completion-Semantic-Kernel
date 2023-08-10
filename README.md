@@ -29,7 +29,7 @@ AZURE_OPENAI_API_KEY=""
 ## Running the starter
 
 To run the console application within Visual Studio Code, just hit `F5`.
-As configured in `launch.json` and `tasks.json`, Visual Studio Code will run `poetry install` followed by `python hello_world/main.py`
+As configured in `launch.json` and `tasks.json`, Visual Studio Code will run `poetry install` followed by `python text_completion/main.py`
 
 To build and run the console application from the terminal use the following commands:
 
