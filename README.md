@@ -93,6 +93,7 @@ Generative AI is a powerful tool that can be used in various fields, including a
 
 References:
 
-1. https://www.nvidia.com/en-us/research/ai-playground/stylegan/
-2. https://openai.com/blog/gpt-3-apps/
-3. https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html<|im_end|>
+1. https://www.nvidia.com/en-us/research/ai-playground
+2. https://openai.com/blog/gpt-3-apps
+3. https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
+
