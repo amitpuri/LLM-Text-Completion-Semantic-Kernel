@@ -36,7 +36,6 @@ def main():
         content="Generative AI", variables={"style": "descriptive professional academic"}
     )
     result = explanation_function(variables=context_variables)
-
     print(result)
 
     # You can also invoke functions like this
@@ -46,3 +45,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# pip install asyncio, or add this to [tool.poetry.dependencies] section in pyproject.toml
+# if __name__ == "__main__":
+#    import asyncio
+#    asyncio.run(main())
+#    change def main() to async def main()
