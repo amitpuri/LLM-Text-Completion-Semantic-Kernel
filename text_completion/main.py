@@ -46,7 +46,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# pip install asyncio, or add this to [tool.poetry.dependencies] section in pyproject.toml
+# pip install asyncio, or add asyncio = "^3.0" to [tool.poetry.dependencies] section in pyproject.toml
 # if __name__ == "__main__":
 #    import asyncio
 #    asyncio.run(main())
