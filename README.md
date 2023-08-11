@@ -98,8 +98,8 @@ References:
 3. https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
 
 Further, simplify using LangChain
-- [Text Completion via OpenAI Python](https://github.com/amitpuri/LLM-Text-Completion)
 - [Text Completion via LangChain](https://github.com/amitpuri/LLM-Text-Completion-langchain)
-
+- [Text Completion via OpenAI Python](https://github.com/amitpuri/LLM-Text-Completion)
+  
 More comprehensive demos are available on [LLM Scenarios, Use cases on the Gradio app](https://github.com/amitpuri/ask-picturize-it)
 
