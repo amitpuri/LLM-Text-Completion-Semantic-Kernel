@@ -97,6 +97,9 @@ References:
 2. https://openai.com/blog/gpt-3-apps
 3. https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
 
+END OF OUTPUT
+----------
+
 Further, simplify using LangChain 
 - [Text Completion via LangChain](https://github.com/amitpuri/LLM-Text-Completion-langchain)
 
