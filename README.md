@@ -102,7 +102,7 @@ Further, simplify using LangChain
 
 - [Text Completion via OpenAI Python](https://github.com/amitpuri/LLM-Text-Completion)
 - [Semantic Kernel Starters](https://github.com/microsoft/semantic-kernel-starters)
--   for ChatGPT Plugin, check Semantic Kernel Python Flask Starter
+    -  for ChatGPT Plugin, check Semantic Kernel Python Flask Starter
  
 More comprehensive demos are available on [LLM Scenarios, Use cases on the Gradio app](https://github.com/amitpuri/ask-picturize-it)
 
